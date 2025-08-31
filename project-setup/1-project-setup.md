@@ -104,10 +104,10 @@ dynamic = ["version", "description"]
 # COMMAND_NAME = "PATH.TO.ENTRY.MODULE:ENTRY_FUNCTION"
 
 
-[project.optional-dependencies]
+[optional-dependencies]
 foo_group = []
 
-[project.dependency-groups]
+[dependency-groups]
 # Dev dependencies
 # https://docs.astral.sh/uv/concepts/projects/dependencies/#development-dependencies
 # https://docs.astral.sh/uv/concepts/projects/dependencies/#dependency-groups
