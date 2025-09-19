@@ -97,11 +97,13 @@ license = "LICENSE_EXPRESSION"
 # https://packaging.python.org/en/latest/specifications/pyproject-toml/#license-files
 license-files=[]
 # https://packaging.python.org/en/latest/specifications/pyproject-toml/#dynamic
+# NOTE uv build does not handle dynamic values currently - 2025-09
 dynamic = ["version", "description"]
 
 [project.scripts]
 # script entry-points
 # COMMAND_NAME = "PATH.TO.ENTRY.MODULE:ENTRY_FUNCTION"
+# foo-app = "foo_app.cli.main_typer:app"
 
 
 [optional-dependencies]

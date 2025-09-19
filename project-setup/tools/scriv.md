@@ -6,7 +6,15 @@
 ## Install scriv
 ```bash
 uv add --dev scriv
+
+# Setup structure
+mkdir ./changelog.d &&
+mkdir ./changelog.d/templates &&
+touch ./changelog.d/templates/new_fragment.md.j2 &&
+touch ./changelog.d/templates/entry_title_template.md.j2
 ```
+
+
 
 ## Add pyproject.toml config
 
@@ -23,7 +31,7 @@ new_fragment_template = "file: changelog.d/templates/new_fragment.${config:forma
 
 ## Define custom templates
 
-./changelog.d/templates/new_fragment.md.j2
+./changelog.d/templates/entry_title_template.md.j2
 ```html
 {% if version %}[{{ version }}](https://github.com/REPO_OWNER/PROJECT_NAME/compare/_previous_version_tag_...{{ version }}) — {% endif %} {{ date.strftime('%Y-%m-%d') }}
 

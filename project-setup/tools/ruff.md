@@ -1,6 +1,11 @@
 # Ruff
 
 
+- Add the ruff dev dependency and add config instructions to the pyproject.toml -
+```bash
+uv add --dev ruff
+```
+
 ```toml
 [tool.ruff.lint]
 select = ["B", "UP", "D", "DOC", "FIX", "I", "F401"]
