@@ -1,5 +1,14 @@
 # Changelog
 <!-- markdownlint-disable MD024 -->
+<!--
+Possible Tags:
+ - Added
+ - Changed
+ - Deprecated
+ - Removed
+ - Fixed
+ - Security
+-->
 <!-- changelog-begin -->
 
 ## [Unreleased](<https://github.com/REPO_OWNER/PROJECT_NAME/compare/0.0.0...dev>)
