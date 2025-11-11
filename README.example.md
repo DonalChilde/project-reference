@@ -14,7 +14,11 @@ Fields:
 
 ## Project Description
 
-## Usage Examples
+## Quick Start
+
+## Usage
+
+## API Usage
 
 ## Installation
 
@@ -81,3 +85,13 @@ docstring-code-line-length = 88
 ```
 
 ## Contributing
+
+## License
+
+MIT License - see LICENSE file for details.
+
+## Support
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for version history.
